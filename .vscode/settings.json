@@ -1,0 +1,6 @@
+{
+    "search.useGlobalIgnoreFiles": false,
+    "files.exclude": {
+        "**/.git": false
+    }
+}

@@ -1,0 +1,42 @@
+
+#main
+{
+    height: 450px;
+    width: 1100px;
+    background-color:beige; 
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.box
+{
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    margin-top: 20px;
+    border-radius: 5%;
+   
+  
+}
+#box1
+{
+    background-color: white;
+    color: black;
+}
+#box2
+{
+    background-color: black;
+    color: white;
+}
+#box3
+{
+    background-color: white;
+    color: black;
+}
+
+li
+{
+    list-style:disc;
+}
+
