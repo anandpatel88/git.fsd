@@ -1,0 +1,39 @@
+div {
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    position: relative;
+    
+    animation: rotatingscircle 20s linear infinite;
+}
+
+@keyframes rotatingscircle {
+    0% {
+        background-color: blueviolet;
+        left: 0;
+        top: 0;
+    }
+    25% {
+        background-color: rgb(43, 226, 165);
+        left: 0%;
+        top: 100px;
+    }
+    50% {
+        background-color: rgb(226, 43, 192);
+        left: 300px;
+        top: 100px;
+    }
+    75% {
+        background-color: rgb(64, 226, 43);
+        left: 300px;
+        top: 0%;
+    }
+    100% {
+        background-color: rgb(43, 104, 226);
+        left: 0;
+        top: 0;
+    }
+}
